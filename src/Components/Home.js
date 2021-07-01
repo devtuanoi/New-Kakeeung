@@ -1,12 +1,12 @@
-import React from 'react'
-import Slider from './Slider'
+import React, { Fragment } from "react";
+import Slider from "./Slider/Slider";
 
 const Home = () => {
-    return (
-        <div className="sec__one" style={{height: '100%', width: '100%', background: '#333'}}>
-            <Slider />
-        </div>
-    )
-}
+  return (
+    <Fragment>
+      <Slider />
+    </Fragment>
+  );
+};
 
-export default Home
+export default Home;
