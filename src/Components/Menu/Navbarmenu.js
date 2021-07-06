@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
-import Kakeenung from "../../asserts/images/kakeenung.png";
+import Kakeenung from "../../asserts/image/kakeenung.png";
 
 const Navbarmenu = () => {
   const [isMenu, setisMenu] = useState(false);

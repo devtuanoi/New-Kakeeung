@@ -1,41 +1,18 @@
-import React, { useEffect, useState } from "react";
-import SliderContent from "./SliderContent";
-import Dots from "./Dots";
-import Arrows from "./Arrows";
+import React from 'react';
+import SliderImg from './SliderImg';
+import './slider.css';
 
-import "./slider.css";
-import SliderImg from "./SliderImg";
 
-const len = SliderImg.length - 1;
 
-function Slider(props) {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [activeIndex]);
-
-  return (
-    <div className="slider-container">
-      <SliderContent activeIndex={activeIndex} SliderImg={SliderImg} />
-      <Arrows
-        prevSlide={() =>
-          setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)
-        }
-        nextSlide={() =>
-          setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
-        }
-      />
-      <Dots
-        activeIndex={activeIndex}
-        SliderImg={SliderImg}
-        onclick={(activeIndex) => setActiveIndex(activeIndex)}
-      />
-    </div>
-  );
+const Slider = () => {
+    return (
+        <>
+        <h1 style={{ textAlign: "center"}}> ทดสอบสไลด์โชว์</h1>
+        <div className="slider-container">
+            <SliderImg />
+        </div>
+        </>
+    )
 }
-
-export default Slider;
+;
+export default Slider
