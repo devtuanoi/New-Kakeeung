@@ -76,13 +76,13 @@ a {
   color: #05f7ff;
 }
 
-.footer .footer-content .about .contact span {
+.footer .footer-content .contact-form .contact span {
   display: block;
   font-size: 1.1em;
   margin-bottom: 8px;
 }
 
-.footer .footer-content .about .socials a {
+.footer .footer-content .contact-form .socials a {
   border: 1px solid gray;
   width: 45px;
   height: 41px;
@@ -95,7 +95,7 @@ a {
   transition: all 0.3s;
 }
 
-.footer .footer-content .about .socials a:hover {
+.footer .footer-content .contact-form .socials a:hover {
   border: 1px solid white;
   color: white;
   transition: all 0.3s;

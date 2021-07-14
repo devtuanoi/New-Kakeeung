@@ -5,7 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-const Card = () => {
+const Card = (props) => {
+    const {img, h2, p} = props;
     let settings = {
         dots: true,
         infinite: true,
@@ -46,17 +47,6 @@ const Card = () => {
                     <div className="details">
                         <h2>การตลาดออนไลน์</h2>
                         <p>ให้คำแนะนำ ออกแบบและวางแผนการตลาดออนไลน์ให้กับลูกค้า</p>
-                    </div>
-                </div>
-            </div>
-            <div className="card-wrapper">
-                <div className="card">
-                    <div className="card-image">
-                        <img src="https://i.pinimg.com/564x/92/9c/28/929c28edcc221a40e789e8339a2e9162.jpg" />
-                    </div>
-                    <div className="details">
-                        <h2>บูลแคท สมาร์ทซอฟต์</h2>
-                        <p>ออกแบบสร้างเว็บไซต์ให้กับลูกค้า</p>
                     </div>
                 </div>
             </div>

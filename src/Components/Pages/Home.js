@@ -1,17 +1,15 @@
 import React, { Fragment } from "react";
-import Hero from "../Card/Hero";
+import Hero from "../Hero/Hero";
 import CardSlider from "../Card/CardSlider";
 import Footer from "../Footer/Footer";
-// import Slider from "../Slider/Slider";
-
+import ScrollTop from "../Scroll/ScrollTop";
 
 const Home = () => {
   return (
     <Fragment>
-      {/* <Slider /> */}
+      <ScrollTop />
       <Hero />
       <CardSlider />
-      <hr />
       <Footer />
     </Fragment>
   );

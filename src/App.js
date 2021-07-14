@@ -10,7 +10,7 @@ import ContactUs from './Components/Pages/ContactUs';
 
 import Navbarmenu from './Components/Menu/Navbarmenu'
 import Marketing from './Components/Pages/Marketing';
-import BuildWeb from './Components/Pages/BuildWeb';
+import RadioOnline from './Components/Pages/RadioOnline';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/AboutUs" component={AboutUs} />
         <Route exact path="/ContactUs" component={ContactUs} />
         <Route exact path="/Marketing" component={Marketing} />
-        <Route exact path="/BuildWeb" component={BuildWeb} />
+        <Route exact path="/RadioOnline" component={RadioOnline} />
       </Switch>
     </Router>
     
