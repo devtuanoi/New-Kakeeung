@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import ReactPlayer from 'react-player';
 import Marketing from '../../videos/Digital Marketing Agency Promo Video -  After Effects Template.mp4'
 import { Link } from 'react-router-dom';
+import './Hero.css';
 
 const useStyles = makeStyles(theme => ({
   root: {

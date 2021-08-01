@@ -101,6 +101,19 @@ const Navbarmenu = () => {
                     บริการ <FiChevronDown />{" "}
                   </Link>
                   <ul className={boxClassSubMenu.join(" ")}>
+                  <li>
+                      {" "}
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/EventOrganize`}
+                      >
+                        {" "}
+                        รับจัดงานอีเว้นท์
+                        &
+                        ออกาไนซ์{" "}
+                      </NavLink>{" "}
+                    </li>
                     <li>
                       {" "}
                       <NavLink
@@ -119,7 +132,31 @@ const Navbarmenu = () => {
                         to={`/RadioOnline`}
                       >
                         {" "}
-                        สถานีวิทยุออนไลน์{" "}
+                        สถานีวิทยุทั้งออนแอร์
+                        &
+                        ออนไลน์{" "}
+                      </NavLink>{" "}
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/Promotion`}
+                      >
+                        {" "}
+                        ให้เช่าป้ายโฆษณา{" "}
+                      </NavLink>{" "}
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={toggleClass}
+                        activeClassName="is-active"
+                        to={`/PhotoandVideo`}
+                      >
+                        {" "}
+                        รับจ้างถ่ายรูป
+                        &
+                        วีดีโอ{" "}
                       </NavLink>{" "}
                     </li>
                   </ul>

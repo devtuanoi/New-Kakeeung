@@ -24,7 +24,7 @@ img {
     position: relative;
     width: 100%;
     display: flex;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 .sec__one h1{
   text-align: center;
@@ -63,7 +63,7 @@ li {
   list-style-type: none;
 }
 .menu-item a {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 40px;
   position: relative;
@@ -191,7 +191,6 @@ li {
   left: 0;
   z-index: 10007;
   background-color: #d8f1ff;
-  border-bottom: 3px solid #ff3d00;
   right: 0;
   padding-bottom: 17px;
   padding-top: 57px;
