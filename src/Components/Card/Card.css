@@ -187,9 +187,10 @@
     transition: .6s;
   }
   
-  .details h2 {
+  .details h2, p {
     margin: 10px 0;
     padding: 0;
+    color: black;
     text-align: center;
   }
   
