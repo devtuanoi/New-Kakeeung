@@ -18,7 +18,7 @@ const Card = (props) => {
       <div className="card-wrapper">
         <div className="card">
           <div className="card-image">
-            <img src="image/kakeenung.png" />
+            <img src="https://scontent.fbkk5-6.fna.fbcdn.net/v/t1.6435-9/90437079_111116687190667_318427002719698944_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHhiRnV2qgTtLVBLYO5jsN8yQnOtuhGPaXJCc626EY9pfU35mgRtD1YAm0W5TWvCEfAkFe-SLNTKbWWmQUZyPfB&_nc_ohc=Pn1zpBrHEa0AX8judWR&_nc_ht=scontent.fbkk5-6.fna&oh=1e071c664cd71222fd666ce78a4bb656&oe=617301AB" />
           </div>
           <div className="details">
             <h2>ห้างหุ้นส่วนจำกัด กากี่นั้ง แอดเวอร์ไทซิ่ง</h2>

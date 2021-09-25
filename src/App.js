@@ -12,8 +12,8 @@ import Navbarmenu from './Components/Menu/Navbarmenu'
 import Marketing from './Components/Pages/Marketing';
 import RadioOnline from './Components/Pages/RadioOnline';
 import EventOrganize from './Components/Pages/EventOrganize';
-import Promotion from './Components/Pages/Promotion';
 import PhotoandVideo from './Components/Pages/PhotoandVideo';
+import Rent from './Components/Pages/Rent';
 
 
 function App() {
@@ -27,10 +27,10 @@ function App() {
         <Route exact path="/Profile" component={Profile} />
         <Route exact path="/AboutUs" component={AboutUs} />
         <Route exact path="/ContactUs" component={ContactUs} />
-        <Route exact path="/Promotion" component={Promotion} />
         <Route exact path="/EventOrganize" component={EventOrganize} />
         <Route exact path="/Marketing" component={Marketing} />
         <Route exact path="/RadioOnline" component={RadioOnline} />
+        <Route exact path="/Rent" component={Rent} />
         <Route exact path="/PhotoandVideo" component={PhotoandVideo} />
       </Switch>
     </Router>

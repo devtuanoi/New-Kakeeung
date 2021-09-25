@@ -1,3 +1,4 @@
+import React from "react";
 import Card from "../Card/Card";
 import styled from "styled-components";
 import "../Card/Card.css";
@@ -12,9 +13,7 @@ const CardSlider = () => {
   return (
     <Caruosel2><div className="container mt-5 carousel">
       <div>
-          <h1 className="service__desktops">บริการ</h1>
-          <h1 className="service__tablets">บริการ</h1>
-          <h1 className="service__smartphone">บริการ</h1>
+
           </div>
       <Card />
     </div></Caruosel2>

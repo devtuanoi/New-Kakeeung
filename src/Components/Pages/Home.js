@@ -6,12 +6,13 @@ import ScrollTop from "../Scroll/ScrollTop";
 
 const Home = () => {
   return (
-    <Fragment>
+    <div className="header-h1">
+      <h1>ห้างหุ้นส่วนจำกัด กากี่นั้งแอดเวอร์ไทซิ่ง</h1>
       <ScrollTop />
       <Hero />
       <CardSlider />
       <Footer />
-    </Fragment>
+    </div>
   );
 };
 

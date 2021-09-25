@@ -16,51 +16,31 @@ a {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 780px){
+  .footer-content {
+    flex-direction: column;
 
-@media only screen and (max-width: 934px) {
-    .content {
-      width: 100%;
-    }
-  
-    .auth-content {
-      width: 50%;
-    }
-  
-    .content .main-content .post {
-      width: 100%;
-    }
-  
-    .content .main-content {
-      width: 100%;
-      padding: 10px;
-    }
-  
-    .content .sidebar {
-      width: 100%;
-      padding: 10px;
-    }
-  
-    .content .sidebar .section.search {
-      margin-top: 30px;
-    }
-  
-    .footer {
-      height: auto;
-    }
-  
-    .footer .footer-content {
-      height: auto;
-      flex-direction: column;
-    }
-  
-    .footer .footer-content .contact-form {
-      padding-bottom: 90px;
-    }
-  
-    .footer .footer-content .contact-form .contact-btn {
-      width: 100%;
-    }
   }
+  .footer-kakeenung {
+    background: #303036;
+    color: #d3d3d3;
+    height: 1000px;
+    position: relative;
+  }
+  .footer-section .about {
+    width: 100%;
+  }
+  .footer-section .links{
+    width: 100%;
+  }
+  .footer-section .contact-form{
+    width: 100%;
+  }
+
+}
+.footer-section .links ul li {
+ 
+}
 
 .footer .footer-content .footer-section {
   flex: 1;
@@ -135,7 +115,7 @@ a {
 
 .footer .footer-bottom {
     background: #c3c3c3;
-  color: #686868;
+  color: #ff0000;
   height: 50px;
   width: 100%;
   text-align: center;
@@ -143,4 +123,8 @@ a {
   bottom: 0px;
   left: 0px;
   padding-top: 20px;
+}
+
+.footer p {
+  color: #fff;
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Promotion = () => {
+const Rent = () => {
     return (
-        <div className="sec__one">
+        <div className="header-h1">
             <h1>ให้เช่าป้ายโฆษณา</h1>
         </div>
     )
 }
 
-export default Promotion
+export default Rent

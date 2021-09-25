@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <>
     <ScrollTop />
-    <div className="sec__one">
+    <div className="header-h1">
         <h1>ติดต่อเรา</h1>
     </div>
     <ContactKakeenung />
